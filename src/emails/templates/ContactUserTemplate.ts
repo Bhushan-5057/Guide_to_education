@@ -1,10 +1,10 @@
-import type { ContactFormState } from '@/store/slices/formSlice';
+import type { ContactFormState } from '../../store/slices/formSlice';
 import {
   brand,
   firstName,
   renderEmailShell,
   renderSections,
-} from '@/lib/email-utils';
+} from '../../lib/email-utils';
 
 export const ContactUserTemplate = (data: ContactFormState) => {
   const sections = [

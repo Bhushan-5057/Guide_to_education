@@ -1,11 +1,11 @@
-import type { ContactFormState } from '@/store/slices/formSlice';
+import type { ContactFormState } from '../../store/slices/formSlice';
 import {
   brand,
   escapeHtml,
   formatSubmittedAt,
   renderEmailShell,
   renderSections,
-} from '@/lib/email-utils';
+} from '../../lib/email-utils';
 
 export const ContactAdminTemplate = (data: ContactFormState) => {
   const sections = [

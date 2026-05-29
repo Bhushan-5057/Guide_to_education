@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
-import OfferingDetailPage from '@/components/services/OfferingDetailPage';
-import { getOffering, getRelatedOfferings, studentSupport } from '@/data/siteOfferings';
+import OfferingDetailPage from '../../../components/services/OfferingDetailPage';
+import { getOffering, getRelatedOfferings, studentSupport } from '../../../data/siteOfferings';
 
 type StudentSupportDetailPageProps = {
   params: Promise<{ slug: string }>;

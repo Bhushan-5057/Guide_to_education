@@ -1,7 +1,7 @@
 'use client';
 
 import Link from 'next/link';
-import HeroSection from '@/components/ui/HeroSection';
+import HeroSection from '../components/ui/HeroSection';
 import {
   Compass,
   BookOpen,

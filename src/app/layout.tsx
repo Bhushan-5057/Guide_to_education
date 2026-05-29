@@ -1,10 +1,10 @@
 import type { Metadata } from 'next';
 import { Outfit, Inter } from 'next/font/google';
 import './globals.css';
-import ReduxProvider from '@/components/providers/ReduxProvider';
-import AOSInit from '@/components/providers/AOSInit';
-import Navbar from '@/components/layout/Navbar';
-import Footer from '@/components/layout/Footer';
+import ReduxProvider from '../components/providers/ReduxProvider';
+import AOSInit from '../components/providers/AOSInit';
+import Navbar from '../components/layout/Navbar';
+import Footer from '../components/layout/Footer';
 
 const outfit = Outfit({
   variable: '--font-outfit',

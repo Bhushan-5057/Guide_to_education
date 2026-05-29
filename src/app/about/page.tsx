@@ -1,6 +1,6 @@
 'use client';
 
-import HeroSection from '@/components/ui/HeroSection';
+import HeroSection from '../../components/ui/HeroSection';
 import { ShieldCheck, BookOpen, Heart, Briefcase, Award, Compass } from 'lucide-react';
 
 export default function About() {

@@ -2,7 +2,7 @@
 
 import { FormEvent } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { RootState } from '@/store';
+import { RootState } from '../../store';
 import {
   updateBookingField,
   submitBookingStart,
@@ -11,8 +11,8 @@ import {
   submitBookingReset,
   setErrors,
   clearErrors
-} from '@/store/slices/formSlice';
-import HeroSection from '@/components/ui/HeroSection';
+} from '../../store/slices/formSlice';
+import HeroSection from '../../components/ui/HeroSection';
 import {
   CheckCircle2,
   Calendar,

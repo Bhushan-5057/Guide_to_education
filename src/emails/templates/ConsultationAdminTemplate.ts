@@ -1,4 +1,4 @@
-import type { BookingFormState } from '@/store/slices/formSlice';
+import type { BookingFormState } from '../../store/slices/formSlice';
 import {
   brand,
   escapeHtml,
@@ -6,7 +6,7 @@ import {
   formatSubmittedAt,
   renderEmailShell,
   renderSections,
-} from '@/lib/email-utils';
+} from '../../lib/email-utils';
 
 export const ConsultationAdminTemplate = (data: BookingFormState) => {
   const sections = [

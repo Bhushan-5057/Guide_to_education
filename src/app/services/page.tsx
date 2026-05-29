@@ -1,9 +1,9 @@
 'use client';
 
 import Link from 'next/link';
-import HeroSection from '@/components/ui/HeroSection';
+import HeroSection from '../../components/ui/HeroSection';
 import { AlertTriangle, Calendar, ArrowRight } from 'lucide-react';
-import { services } from '@/data/siteOfferings';
+import { services } from '../../data/siteOfferings';
 
 export default function Services() {
   return (

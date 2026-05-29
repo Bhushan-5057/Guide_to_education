@@ -1,9 +1,9 @@
 import { NextResponse } from 'next/server';
-import type { BookingFormState } from '@/store/slices/formSlice';
-import { ConsultationAdminTemplate } from '@/emails/templates/ConsultationAdminTemplate';
-import { ConsultationUserTemplate } from '@/emails/templates/ConsultationUserTemplate';
-import { isValidEmail, sanitizePayload } from '@/lib/email-utils';
-import { sendInquiryEmails } from '@/lib/mailer';
+import type { BookingFormState } from '../../../store/slices/formSlice';
+import { ConsultationAdminTemplate } from '../../../emails/templates/ConsultationAdminTemplate';
+import { ConsultationUserTemplate } from '../../../emails/templates/ConsultationUserTemplate';
+import { isValidEmail, sanitizePayload } from '../../../lib/email-utils';
+import { sendInquiryEmails } from '../../../lib/mailer';
 
 const allowedFields = [
   'fullName',

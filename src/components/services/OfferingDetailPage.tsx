@@ -1,8 +1,8 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { ArrowRight, Calendar, CheckCircle2 } from 'lucide-react';
-import HeroSection from '@/components/ui/HeroSection';
-import { Offering } from '@/data/siteOfferings';
+import HeroSection from '../ui/HeroSection';
+import { Offering } from '../../data/siteOfferings';
 
 type OfferingDetailPageProps = {
   offering: Offering;

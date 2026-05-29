@@ -1,7 +1,7 @@
 'use client';
 
 import Link from 'next/link';
-import HeroSection from '@/components/ui/HeroSection';
+import HeroSection from '../../components/ui/HeroSection';
 import { Calendar, Award, FileText, Briefcase, ArrowRight, Shield } from 'lucide-react';
 
 export default function StudyInCanada() {

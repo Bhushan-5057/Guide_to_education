@@ -6,7 +6,7 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Menu, X, Calendar, ChevronRight, ChevronDown } from 'lucide-react';
-import { services, studentSupport, type Offering } from '@/data/siteOfferings';
+import { services, studentSupport, type Offering } from '../../data/siteOfferings';
 
 type NavLink = {
   href: string;
@@ -70,7 +70,7 @@ export default function Navbar() {
       <header
         className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled
             ? 'glass-nav py-3 shadow-sm'
-            : 'bg-white/90 xl:bg-white/72 xl:backdrop-blur-xl xl:border-b xl:border-white/45 xl:shadow-[0_12px_34px_rgba(15,36,62,0.08)] py-5 border-b border-transparent'
+            : 'bg-white/90 xl:bg-white/72 xl:backdrop-blur-xl xl:border-b xl:border-white/45 xl:shadow-[0_12px_34px_rgba(15,36,62,0.08)] py-5'
           }`}
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

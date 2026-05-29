@@ -2,7 +2,7 @@
 
 import { FormEvent } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { RootState } from '@/store';
+import { RootState } from '../../store';
 import {
   updateContactField,
   submitContactStart,
@@ -11,8 +11,8 @@ import {
   submitContactReset,
   setErrors,
   clearErrors
-} from '@/store/slices/formSlice';
-import HeroSection from '@/components/ui/HeroSection';
+} from '../../store/slices/formSlice';
+import HeroSection from '../../components/ui/HeroSection';
 import {
   MapPin,
   Phone,

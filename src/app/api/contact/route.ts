@@ -1,9 +1,9 @@
 import { NextResponse } from 'next/server';
-import type { ContactFormState } from '@/store/slices/formSlice';
-import { ContactAdminTemplate } from '@/emails/templates/ContactAdminTemplate';
-import { ContactUserTemplate } from '@/emails/templates/ContactUserTemplate';
-import { isValidEmail, sanitizePayload } from '@/lib/email-utils';
-import { sendInquiryEmails } from '@/lib/mailer';
+import type { ContactFormState } from '../../../store/slices/formSlice';
+import { ContactAdminTemplate } from '../../../emails/templates/ContactAdminTemplate';
+import { ContactUserTemplate } from '../../../emails/templates/ContactUserTemplate';
+import { isValidEmail, sanitizePayload } from '../../../lib/email-utils';
+import { sendInquiryEmails } from '../../../lib/mailer';
 
 const allowedFields = [
   'fullName',

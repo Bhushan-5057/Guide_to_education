@@ -1,5 +1,5 @@
-import { createTransporter } from '@/lib/smtp';
-import { brand } from '@/lib/email-utils';
+import { createTransporter } from './smtp';
+import { brand } from './email-utils';
 
 type SendEmailOptions = {
   to: string;

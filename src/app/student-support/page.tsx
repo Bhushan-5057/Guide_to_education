@@ -1,9 +1,9 @@
 'use client';
 
 import Link from 'next/link';
-import HeroSection from '@/components/ui/HeroSection';
+import HeroSection from '../../components/ui/HeroSection';
 import { ShieldCheck, ArrowRight } from 'lucide-react';
-import { studentSupport } from '@/data/siteOfferings';
+import { studentSupport } from '../../data/siteOfferings';
 
 export default function StudentSupport() {
   return (
